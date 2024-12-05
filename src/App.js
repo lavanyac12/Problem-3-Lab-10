@@ -24,7 +24,7 @@ function App() {
         <li>
           <strong>Initial Setup Issues:</strong> Had to update the version of Node.js.
           <br />
-          <strong>Solution:</strong> Reinstalled Node.js and ensured the PATH was updated.
+          <strong>Solution:</strong> Reinstalled Node.js from the website. 
         </li>
         <li>
           <strong>Initiallizing the React App on terminal:</strong> Did not run the commands in proper order due to which I faced difficulty in opening the site on my local server. Due to this I had trouble understanding how to create the .json file.

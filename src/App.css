@@ -46,18 +46,18 @@ body {
 
 h1 {
   text-align: center;
-  color: #393966
+  color: #252545
 }
 
 div {
   margin-top: 25px; 
-  font-size: 14px;
-  color: #393966
+  font-size: 16px;
+  color: #252545
 }
 
 p, ol, ul {
   line-height: 2.6;
-  color: #41416f
+  color: #30305c
 }
 
 code {
