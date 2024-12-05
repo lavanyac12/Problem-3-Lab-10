@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
      
       <h2>Installation Process</h2>
       <ol>
-        <li>Verified if <strong>Node.js</strong> was installed on the computer using <code>node -v</code></li><br />
-        <li>Used the <code>npx create-react-app</code> command to build the project.</li><br />
+        <li>Verified if <strong>Node.js</strong> was installed on the computer using <code>node -v</code></li>
+        <li>Used the <code>npx create-react-app</code> command to build the project.</li>
         <li>Installed dependencies and ran the app locally using computer terminal through <code>npm start</code>. This opened the site on my localhost server.</li>
       </ol>
 
@@ -34,6 +35,11 @@ function App() {
           <strong>Pushing and committing changes to GitHub from terminal:</strong> Was not the most familiar with GitHub, and hence was unable to understand how to push the documents into my GitHub repository. 
           <br />
           <strong>Solution:</strong> Used commands provided by GitHib on creating the repository in the project directory, i.e. <code>react-render-prob</code>. My project was then uploaded to GitHub. 
+        </li>
+        <li>
+          <strong>Linking the <code>App.css</code> file with the <code>App.js</code> file:</strong> Was not able to view my CSS styles reflected on the webpage. 
+          <br />
+          <strong>Solution:</strong> Hence did some research and discovered I had to import <code>App.css</code> in the beginning of my <code>App.js</code> file.
         </li>
       </ul>
 
