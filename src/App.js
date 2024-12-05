@@ -2,38 +2,43 @@ import React from "react";
 
 function App() {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
+    <div>
       <h1>Building a Web Page with React and Hosting on Render</h1>
      
       <h2>Installation Process</h2>
-      <p>
-        1. Installed <strong>Node.js</strong> from the official website.<br />
-        2. Used the <code>npx create-react-app</code> command to scaffold the project.<br />
-        3. Installed dependencies and ran the app locally using <code>npm start</code>.
-      </p>
+      <ol>
+        <li>Verified if <strong>Node.js</strong> was installed on the computer using <code>node -v</code></li><br />
+        <li>Used the <code>npx create-react-app</code> command to build the project.</li><br />
+        <li>Installed dependencies and ran the app locally using computer terminal through <code>npm start</code>. This opened the site on my localhost server.</li>
+      </ol>
 
       <h2>Building This Page</h2>
       <p>
-        This page was created by modifying the <code>App.js</code> file in the <code>src</code> directory.
-        We used basic React components to structure the content and inline styles for design.
+        This page was created by modifying the <code>App.js</code> file in the <code>src</code> directory. All files were installed during initiallization, so these files were simply modified.
+        Basic React components are used here to structure the content, and the <code>App.css</code> file is used for styling of the page.
       </p>
 
       <h2>Difficulties Encountered</h2>
       <ul>
         <li>
-          <strong>Initial Setup Issues:</strong> Node.js was not installed properly at first.
+          <strong>Initial Setup Issues:</strong> Had to update the version of Node.js.
           <br />
           <strong>Solution:</strong> Reinstalled Node.js and ensured the PATH was updated.
         </li>
         <li>
-          <strong>Deploying to Render:</strong> Forgot to build the app before deploying.
+          <strong>Initiallizing the React App on terminal:</strong> Did not run the commands in proper order due to which I faced difficulty in opening the site on my local server. Due to this I had trouble understanding how to create the .json file.
           <br />
-          <strong>Solution:</strong> Used <code>npm run build</code> to create a production-ready build.
+          <strong>Solution:</strong> Used commands <code>npx create-react-app</code> and <code>npx react-render-prob</code> to build the React App through terminal. This created my .json file which I did not have to worry about creating myself. I then used <code>npm start</code> to open the React app locally. 
+        </li>
+        <li>
+          <strong>Pushing and committing changes to GitHub from terminal:</strong> Was not the most familiar with GitHub, and hence was unable to understand how to push the documents into my GitHub repository. 
+          <br />
+          <strong>Solution:</strong> Used commands provided by GitHib on creating the repository in the project directory, i.e. <code>react-render-prob</code>. My project was then uploaded to GitHub. 
         </li>
       </ul>
 
       <p>
-        This project demonstrates how React simplifies component-based UI development and how Render makes deployment straightforward.
+        This project demonstrates how I used React to create a simple web page. 
       </p>
     </div>
   );
